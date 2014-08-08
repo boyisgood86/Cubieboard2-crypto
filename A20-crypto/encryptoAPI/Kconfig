@@ -1,0 +1,7 @@
+ menuconfig CRYPTOLIB_API
+     bool "Allwiner security system userspace API"
+     default y
+     ---help---
+       Say Y here to get to see options for hardware crypto devices and
+       processors. This option alone does not add any kernel code.
+	   If you say N, all options in this submenu will be skipped and disabled.

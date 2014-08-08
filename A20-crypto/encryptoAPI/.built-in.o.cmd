@@ -1,0 +1,1 @@
+cmd_drivers/encryptoAPI/built-in.o :=  arm-linux-gnueabi-ld -EL    -r -o drivers/encryptoAPI/built-in.o drivers/encryptoAPI/ioctl.o drivers/encryptoAPI/authenc.o drivers/encryptoAPI/cryptlib.o drivers/encryptoAPI/main.o drivers/encryptoAPI/util.o drivers/encryptoAPI/zc.o 

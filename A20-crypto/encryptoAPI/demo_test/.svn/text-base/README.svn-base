@@ -1,0 +1,10 @@
+Hi,
+	use kernel encrypto/decrypto ALG is two ways: one is socket wiht "AF_ALG", one is "dev/cryptodev".
+	if use "/dev/cryptodev", you need compile the encryptoAPI to kernel and it will support an interface to userspace program
+	and there are two demos for "dev/cryptodev" and socket with "AF_ALG"
+
+	ofcouse, you can learn openssl API,that can help you understand socket (AF_ALG)program
+
+	cherrs !
+
+	jason.shi   <newleaves@126.com>
